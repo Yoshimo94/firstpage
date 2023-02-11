@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.sidePanel {
+    text-align: center;
+    background-color: #918c91;
+    padding: 20px;
+}
+
+.sidePanel__header {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.sidePanel__buttonParagraph {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #489dda;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 4px 2px #206ea5;
+    cursor: pointer;
+}
+
+.sidePanel__buttonTitle {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #489dda;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 4px 2px #206ea5;
+    cursor: pointer;
+}
+
+.sidePanel__link {
+    color: blue;
+}
+
+.sidePanel__list {
+    margin: 0px;
+    list-style: none;
+    padding: 11px;
+}
+
+.sidePanel__listElement {
+    margin-bottom: 10px;
+}
+
+.sidePanel__paragraph {
+    margin: 0px;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.sidePanel__buttonSubmit {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #489dda;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 4px 2px #206ea5;
+    cursor: pointer;
+}

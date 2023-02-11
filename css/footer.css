@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.footer {
+    color: white;
+    background-color: #489dda;
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+
+

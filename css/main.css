@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.main {
+    background-color: #ddd;
+    padding: 20px;
+    width: 1000px;
+}
+
+.main__paragraph {
+    text-align: justify;
+}
+
+.main__paragraph--specialMode {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*Stylowanie tabeli*/
+
+.main__table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.main__tableCaption {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main__tableCell {
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+}
+
+.main__tableCell:hover {
+    background-color: #ddd;
+}
+
+.main__tableHeader {
+    background-color: crimson;
+    color: white;
+}
+
+.main__tableHeader:hover {
+    background-color: #a01531;
+}
