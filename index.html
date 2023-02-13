@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valmeinier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/image.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidePanel.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="header" id="mainPage">Valmeinier - alpejskie szaleństwo</header>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__listElement">
+                <a class="nav__link" href="#mainPage">Strona główna</a>
+            </li>
+            <li class="nav__listElement">
+                <a class="nav__link" href="#firstSection">Valmeinier</a>
+            </li>
+            <li class="nav__listElement">
+                <a class="nav__link" href="#secSection">Na narty w Alpy</a>
+            </li>
+            <li class="nav__listElement">
+                <a class="nav__link" href="#table">Cennik</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div>
+            <p class="image">
+                <img width=350 src="images/Valmeinier.jpg" alt="Valmeinier" title="Valmeinier">
+            </p>
+            <p class="image">
+                <img width=350 src="images/Valmeinier2.jpg" alt="Valmeinier2" title="Valmeinier">
+            </p>
+            <p class="image">
+                <img width=350 src="images/Valmeinier3.jpg" alt="Valmeinier3" title="Valmeinier">
+            </p>
+            <p class="image">
+                <img width=350 src="images/Valmeinier4.jpg" alt="Valmeinier4" title="Valmeinier">
+            </p>
+        </div>
+        <main class="main">
+            <div>
+                <section id="firstSection">
+                    <h1>Valmeinier</h1>
+                    <p class="main__paragraph"> Niewielkie, francuskie miasteczko Valmeinier znajduje się w samym środku dwóch
+                        parków
+                        narodowych:
+                        Ecrins i Vanoise. Pomimo zagęszczenia wynoszącego zaledwie 10os/km2, miasteczko to tętni życiem,
+                        szczególnie w okresie zimowym, gdy turyści z całej Europy, ściągają tam, by przeżyć swoje
+                        narcisrskie przygody. Valmeinier nie słynie jednak tylko z nart, przez tamtejszą, najwyżej
+                        położoną przełęcz Valloire do Col du Galibier, przebiega także trasa Tour de France.
+                        Najstarsza część miasteczka polożona jest na wysokości 1500m, która charakteryzuje się swoimi
+                        starymi, w tradycyjnym stylu utrzymanymi domkami z kamienia. Natomiast nieco wyżej na 1800m
+                        zjanduje się całkiem odmienna część miasteczka. Drewaniane domki wybudowane w stylu chalet są
+                        rozmieszczone w kształcie podkowy okalajać nowoczesną stację narciarską. Zjazd na nartach jest
+                        tutaj możliwy praktycznie pod same domki, apartamenty mieszkalne. Ponadto znajdują się tu liczne
+                        restauracje, bary, sklepy oraz nawet dla miłośników filmów - 3 kina.
+                    </p>
+                </section>
+            </div>
+            <div>
+                <section id="secSection">
+                    <h1>Na narty w Alpy</h1>
+                    <p class="main__paragraph"> Region Valmeinier-Valloire, który szczególnie upodobali sobie turyści
+                        przybywający tutaj w celu
+                        odcięcia się od świata, położony jest w słonecznej Dolinie Maurienne. Ze względu na pojawiające
+                        się w przeszłości skargi tamtejszych mieszkańców, na panujący zbyt duży zgiełk w ich
+                        miejscowości, cały kompleks narciarski rozciąga się w kierunku północnym, nie wchodząc w głąb
+                        wioski. <br>Obecnie znajdują się tutaj bajeczne nartostrady, ciągnące się przez 3 doliny. Trasy
+                        narcisrskie, po których szusują nie tylko doswiadczeni narciarze, charakteryzują się szerokimi
+                        zboczami i głębokimi kotlinami. Infrastruktura w kompleksie jest zorganizowana w sposób
+                        samowystarczalny, aby każdy narciarz spokojnie mógł oddawać się swojej pasji, podziwiając
+                        przepiękne widoki, zapierające dech w piersi i nie martwiąc się, gdzie następnego dnia zdobyć
+                        produkty na pożywne śniadanie.
+                    </p>
+                </section>
+            </div>
+            <table class="main__table" id="table">
+                <caption class="main__tableCaption">Cennik</caption>
+                <tr>
+                    <th class="main__tableCell main__tableHeader" scope="col">Długość pobytu</th>
+                    <th class="main__tableCell main__tableHeader" scope="col">Rodzaj aparatamentu</th>
+                    <th class="main__tableCell main__tableHeader" scope="col">Cena</th>
+                </tr>
+                <tr>
+                    <th class="main__tableCell main__tableHeader" scope="row" rowspan="2">5-dniowy</th>
+                    <td class="main__tableCell">Apartament 2-osobowy</td>
+                    <td class="main__tableCell">899zł/os</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Apartament 4-osobowy</td>
+                    <td class="main__tableCell">799zł/os</td>
+                </tr>
+                <tr>
+                    <th class="main__tableCell main__tableHeader" scope="row" rowspan="2">7-dniowy</th>
+                    <td class="main__tableCell">Apartament 2-osobowy</td>
+                    <td class="main__tableCell">1099zł/os</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Apartament 4-osobowy</td>
+                    <td class="main__tableCell">999zł/os</td>
+                </tr>
+                <tr>
+                    <th class="main__tableCell main__tableHeader" scope="row" rowspan="2">11-dniowy</th>
+                    <td class="main__tableCell">Apartament 2-osobowy</td>
+                    <td class="main__tableCell">1399zł/os</td>
+                </tr>
+                <tr>
+                    <td class="main__tableCell">Apartament 4-osobowy</td>
+                    <td class="main__tableCell">1299zł/os</td>
+                </tr>
+            </table>
+        </main>
+        <div class="sidePanel">
+            <aside>
+                <h2 class="sidePanel__header">Linki oraz interakcje strony</h2>
+                <button class="sidePanel__buttonParagraph">Jasny paragraf</button>
+                <button class="sidePanel__buttonTitle">Zmień tytuł strony</button>
+                <p>
+                    <a href="https://www.snowtrex.pl/francja/valmeinier/narty.html?code=1673&utm_source=google&utm_medium=cpc&utm_campaign=PL-PMax-Text-NachSegmenten&utm_content=non-brand&network=x&device=c&gclid=CjwKCAiAjs2bBhACEiwALTBWZRCQkK3nYdq0vSDVISEvmOZEUdy3JlcGwgB4KVyz1x9fLlI7SQ0qhRoCGsQQAvD_BwE#tt-main"
+                        target="_blank" rel="noreferrer noopener" class="sidePanel__link">
+                        SnowTrex</a>
+                </p>
+                <p>
+                    <a href="https://d3u9sm4kpb9d1j.cloudfront.net/pictures/4386211" target="_blank"
+                        rel="noreferrer noopener" class="sidePanel__link">Nartostrady</a>
+                </p>
+                <form>
+                    <fieldset>
+                        <legend>Formularz kontaktowy</legend>
+                        <ul class="sidePanel__list">
+                            <li class="sidePanel__listElement">
+                                <label>Imię i nazwisko: *
+                                    <input name="name" placeholder="Imię i nazwisko" required>
+                                </label>
+                            </li>
+                            <li class="sidePanel__listElement">
+                                <label>Telefon: *
+                                    <input type="tel" name="tel" placeholder="Numer telefonu" required>
+                                </label>
+                            </li>
+                            <li>Wybierz liczbę uczestników:</li>
+                            <li>
+                                <input type="checkbox" id="2" name="2">
+                                <label for="2">2 osoby</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="3" name="3">
+                                <label for="3">3 osoby</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="4" name="4">
+                                <label for="4">4 osoby</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="wiecej" name="więcej">
+                                <label for="wiecej">więcej</label>
+                            </li>                           
+                        </ul>
+                        <p class="sidePanel__paragraph">
+                            Pola obowiązkowe oznaczono *
+                        </p>
+                    </fieldset>
+                    <p>
+                        <button class="sidePanel__buttonSubmit">Wyślij</button>
+                    </p>
+                </form>
+            </aside>
+        </div>
+    </div>
+    <footer class="footer">ostatnia aktualizacja: 16.11.2022 <br>kontakt: telefon +48 888000999 <br> ul. Wesołych Zuchów
+        16 Kraków</footer>
+
+</body>
+
+</html>
