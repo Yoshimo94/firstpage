@@ -17,6 +17,7 @@
     <link href="css/image.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/sidepanel.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
@@ -132,8 +133,8 @@
         <div class="sidePanel">
             <aside>
                 <h2 class="sidePanel__header">Linki oraz interakcje strony</h2>
-                <button class="sidePanel__buttonParagraph">Jasny paragraf</button>
-                <button class="sidePanel__buttonTitle">Zmień tytuł strony</button>
+                <button class="sidePanel__button">Jasny paragraf</button>
+                <button class="sidePanel__button">Zmień tytuł strony</button>
                 <p>
                     <a href="https://www.snowtrex.pl/francja/valmeinier/narty.html?code=1673&utm_source=google&utm_medium=cpc&utm_campaign=PL-PMax-Text-NachSegmenten&utm_content=non-brand&network=x&device=c&gclid=CjwKCAiAjs2bBhACEiwALTBWZRCQkK3nYdq0vSDVISEvmOZEUdy3JlcGwgB4KVyz1x9fLlI7SQ0qhRoCGsQQAvD_BwE#tt-main"
                         target="_blank" rel="noreferrer noopener" class="sidePanel__link">
@@ -143,18 +144,20 @@
                     <a href="https://d3u9sm4kpb9d1j.cloudfront.net/pictures/4386211" target="_blank"
                         rel="noreferrer noopener" class="sidePanel__link">Nartostrady</a>
                 </p>
-                <form>
+                <form class="form">
                     <fieldset>
                         <legend>Formularz kontaktowy</legend>
-                        <ul class="sidePanel__list">
-                            <li class="sidePanel__listElement">
-                                <label>Imię i nazwisko: *
-                                    <input name="name" placeholder="Imię i nazwisko" required>
+                        <ul class="form__list">
+                            <li class="form__listElement">
+                                <label>
+                                    <span class="form__labelText">Imię i nazwisko: *</span>
+                                    <input class="form__field" name="name" placeholder="Imię i nazwisko" required>
                                 </label>
                             </li>
-                            <li class="sidePanel__listElement">
-                                <label>Telefon: *
-                                    <input type="tel" name="tel" placeholder="Numer telefonu" required>
+                            <li class="form__listElement">
+                                <label>
+                                    <span class="form__labelText">Telefon: *</span>
+                                    <input class="form__field" type="tel" name="tel" placeholder="Numer telefonu" required>
                                 </label>
                             </li>
                             <li>Wybierz liczbę uczestników:</li>
@@ -175,12 +178,12 @@
                                 <label for="wiecej">więcej</label>
                             </li>                           
                         </ul>
-                        <p class="sidePanel__paragraph">
+                        <p class="form__paragraph">
                             Pola obowiązkowe oznaczono *
                         </p>
                     </fieldset>
                     <p>
-                        <button class="sidePanel__buttonSubmit">Wyślij</button>
+                        <button class="form__buttonSubmit">Wyślij</button>
                     </p>
                 </form>
             </aside>

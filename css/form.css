@@ -1,0 +1,41 @@
+.form__list {
+    margin: 0px;
+    list-style: none;
+    padding: 11px;
+}
+
+.form__listElement {
+    margin-bottom: 10px;
+}
+
+.form__labelText {
+    width: 100%;
+    max-width: 120px;
+    display: inline-block;
+}
+
+.form__field {
+    width: 100%;
+    max-width: 250px;
+    padding: 5px;
+}
+
+.form__paragraph {
+    margin: 0px;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.form__buttonSubmit {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #489dda;
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 4px 2px #206ea5;
+    cursor: pointer;
+}
