@@ -1,7 +1,7 @@
 console.log("Witaj ciekawski");
 
-let buttonParagraph = document.querySelector(".sidepanel__buttonParagraph");
-let buttonTitle = document.querySelector(".sidepanel__buttonTitle");
+let buttonParagraph = document.querySelector(".js-buttonParagraph");
+let buttonTitle = document.querySelector(".js-buttonTitle");
 let header = document.querySelector(".header");
 let paragraphs = document.querySelectorAll(".main__paragraph");
 
