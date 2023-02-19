@@ -2,6 +2,7 @@
     background-color: #ddd;
     padding: 20px;
     width: 1000px;
+    flex-basis: 100%;
 }
 
 .main__paragraph {
