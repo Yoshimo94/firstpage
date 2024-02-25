@@ -6,3 +6,6 @@ It is my first website, where I used:
 
 ## Demo
 https://yoshimo94.github.io/firstpage/
+
+### GIF
+<img src="images/Alpines.gif" alt="Alpines" width="300" height="300">
