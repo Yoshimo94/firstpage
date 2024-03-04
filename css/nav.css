@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #489dda;
     padding: 10px;
+    flex-basis: 100%;
 }
 
 .nav__list .nav__listElement {
